@@ -31,8 +31,8 @@ class Match{
     takeInitialPieceInfo(player){
         let validInfoFound = false;
         while(!validInfoFound){
-            //let input = prompt(player.name + ' enter selected warriors:')
-            let input = "p1, p2,p3,p4,p5";
+            let input = prompt(player.name + ' enter selected warriors:')
+            //let input = "p1, p2,p3,p4,p5";
             let enteredInfoArr = input.split(',');
             if(enteredInfoArr.length == 5)
             {
